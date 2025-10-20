@@ -4,7 +4,7 @@ import { Mail, Github, Linkedin, Twitter } from "lucide-react";
 
 const Contact = () => {
   const socialLinks = [
-    { icon: <Github className="w-6 h-6" />, href: "#", label: "GitHub" },
+    { icon: <Github className="w-6 h-6" />, href: "https://github.com/Tsabeng", label: "GitHub" },
     { icon: <Linkedin className="w-6 h-6" />, href: "#", label: "LinkedIn" },
     { icon: <Twitter className="w-6 h-6" />, href: "#", label: "Twitter" },
     { icon: <Mail className="w-6 h-6" />, href: "mailto:delphantsabeng13@gmail.com", label: "Email" },
