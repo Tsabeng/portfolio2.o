@@ -1,5 +1,6 @@
 import { Code2, Palette, Zap } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import profileImg from "@/assets/profile.jpg";
 
 const About = () => {
   const features = [
@@ -27,10 +28,28 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             À <span className="text-gradient">propos</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Je suis un développeur frontend avec une large connaissance des technologies du domaine.
-            Je maîtrise les bases du développement backend pour créer des APIs robustes.
-          </p>
+        </div>
+
+        <div className="flex flex-col md:flex-row items-center gap-12 mb-12 animate-fade-up">
+          <div className="md:w-1/3">
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent rounded-2xl blur opacity-50 group-hover:opacity-75 transition duration-500"></div>
+              <img 
+                src={profileImg} 
+                alt="Delphan Tsabeng" 
+                className="relative w-full rounded-2xl shadow-2xl border-2 border-primary/20 object-cover"
+              />
+            </div>
+          </div>
+          <div className="md:w-2/3 space-y-4 text-muted-foreground">
+            <p className="text-lg">
+              Je suis un développeur frontend avec une large connaissance des technologies du domaine.
+              Je maîtrise les bases du développement backend pour créer des APIs robustes.
+            </p>
+            <p className="text-lg">
+              Passionné par le code propre et les architectures modernes, je transforme vos idées en applications performantes et élégantes.
+            </p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 mt-12">
