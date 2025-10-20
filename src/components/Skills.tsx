@@ -4,15 +4,15 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Frontend",
-      skills: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Vue.js", "HTML/CSS"],
+      skills: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "Tailwind CSS"],
     },
     {
       title: "Backend",
-      skills: ["Node.js", "Express", "PostgreSQL", "MongoDB", "REST API", "GraphQL"],
+      skills: ["Python", "Django", "Flask", "REST API"],
     },
     {
-      title: "Outils",
-      skills: ["Git", "Vite", "Webpack", "Docker", "Figma", "VS Code"],
+      title: "Expériences professionnelles",
+      skills: ["Infolab Technologie - Frontend (2023)", "Infolab Technologie - FullStack (2025-Present)"],
     },
   ];
 

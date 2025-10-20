@@ -7,7 +7,7 @@ const Contact = () => {
     { icon: <Github className="w-6 h-6" />, href: "#", label: "GitHub" },
     { icon: <Linkedin className="w-6 h-6" />, href: "#", label: "LinkedIn" },
     { icon: <Twitter className="w-6 h-6" />, href: "#", label: "Twitter" },
-    { icon: <Mail className="w-6 h-6" />, href: "mailto:contact@example.com", label: "Email" },
+    { icon: <Mail className="w-6 h-6" />, href: "mailto:delphantsabeng13@gmail.com", label: "Email" },
   ];
 
   return (
@@ -35,7 +35,7 @@ const Contact = () => {
                 className="bg-primary hover:bg-primary/90 shadow-glow"
                 asChild
               >
-                <a href="mailto:contact@example.com">
+                <a href="mailto:delphantsabeng13@gmail.com">
                   <Mail className="w-5 h-5 mr-2" />
                   Envoyer un message
                 </a>

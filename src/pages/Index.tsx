@@ -18,7 +18,7 @@ const Index = () => {
       </main>
       <footer className="py-6 text-center border-t border-border/50 bg-card/50">
         <p className="text-muted-foreground">
-          © 2024 Portfolio. Fait avec ❤️ et React.
+          © 2024 Delphan Tsabeng. Fait avec ❤️ et React.
         </p>
       </footer>
     </div>

@@ -22,10 +22,10 @@ const Hero = () => {
         <div className="text-center space-y-6 animate-fade-up">
           <h1 className="text-5xl md:text-7xl font-bold text-foreground">
             Bonjour, je suis{" "}
-            <span className="text-gradient">Développeur Web</span>
+            <span className="text-gradient">Delphan</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-            Créateur d'expériences numériques modernes et performantes
+            Je suis un développeur fullstack utilisant React et Django. Contactez-moi si vous avez besoin de mes services.
           </p>
           <div className="flex gap-4 justify-center pt-4">
             <Button 

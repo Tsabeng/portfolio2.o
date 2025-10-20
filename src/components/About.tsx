@@ -28,9 +28,8 @@ const About = () => {
             À <span className="text-gradient">propos</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Passionné par le développement web, je transforme vos idées en solutions digitales innovantes.
-            Avec une expertise en React, TypeScript et les technologies modernes, je crée des applications
-            web performantes et élégantes.
+            Je suis un développeur frontend avec une large connaissance des technologies du domaine.
+            Je maîtrise les bases du développement backend pour créer des APIs robustes.
           </p>
         </div>
 

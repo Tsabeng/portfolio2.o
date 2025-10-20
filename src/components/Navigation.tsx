@@ -38,13 +38,13 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <a 
             href="#hero" 
-            className="text-2xl font-bold text-gradient"
+            className="text-2xl font-bold"
             onClick={(e) => {
               e.preventDefault();
               scrollToSection("#hero");
             }}
           >
-            Portfolio
+            DELPHAN<span className="text-gradient">TSABENG</span>
           </a>
 
           {/* Desktop Navigation */}
