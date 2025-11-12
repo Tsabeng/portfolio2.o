@@ -38,7 +38,7 @@ const About = () => {
               <img 
                 src={profileImg} 
                 alt="Delphan Tsabeng - Développeur Fullstack" 
-                className="relative w-full h-auto rounded-2xl object-cover border-4 border-primary/30 shadow-2xl transform group-hover:scale-[1.02] transition-all duration-500 ring-2 ring-primary/20"
+                className="relative w-full h-auto aspect-square rounded-2xl object-cover object-center border-4 border-primary/30 shadow-2xl transform group-hover:scale-[1.02] transition-all duration-500 ring-2 ring-primary/20"
               />
             </div>
           </div>

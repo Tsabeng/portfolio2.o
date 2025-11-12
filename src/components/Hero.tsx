@@ -27,7 +27,7 @@ const Hero = () => {
             <img 
               src={profileImg} 
               alt="Delphan Tsabeng - Développeur Fullstack" 
-              className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-primary/30 shadow-2xl transform group-hover:scale-105 transition-transform duration-500 ring-4 ring-primary/10 group-hover:ring-primary/30"
+              className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover object-center border-4 border-primary/30 shadow-2xl transform group-hover:scale-105 transition-transform duration-500 ring-4 ring-primary/10 group-hover:ring-primary/30"
             />
           </div>
           <div className="text-center md:text-left space-y-6 max-w-2xl">
