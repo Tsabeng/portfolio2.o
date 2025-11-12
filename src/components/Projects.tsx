@@ -20,8 +20,8 @@ const Projects = () => {
       description: "Application web permettant aux utilisateurs de rechercher et commander facilement du gaz depuis leur domicile, et aux dépôts d'accroître leur clientèle",
       image: project2,
       tags: ["Django", "Django REST Framework", "Bootstrap"],
-      link: "#",
-      github: "#",
+      link: "https://delphan.pythonanywhere.com/",
+      github: "https://github.com/Tsabeng/Platform-de-gaz",
     },
     {
       title: "Portfolio interactif",
@@ -29,7 +29,7 @@ const Projects = () => {
       image: project3,
       tags: ["React", "Tailwind CSS"],
       link: "#",
-      github: "#",
+      github: "https://github.com/Tsabeng/Projet-Groupe5-Testing-",
     },
   ];
 
