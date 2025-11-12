@@ -29,7 +29,7 @@ const Projects = () => {
       description: "Ce portfolio a pour but de montrer un petit bout de moi",
       image: project3,
       tags: ["React", "Tailwind CSS"],
-      link: "#",
+      link: "https://delphan.netlify.app/",
       github: "https://github.com/Tsabeng/Projet-Groupe5-Testing-",
     },
     {
