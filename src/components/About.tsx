@@ -32,12 +32,13 @@ const About = () => {
 
         <div className="flex flex-col md:flex-row items-center gap-12 mb-12 animate-fade-up">
           <div className="md:w-1/3">
-            <div className="relative group">
-              <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent rounded-2xl blur opacity-50 group-hover:opacity-75 transition duration-500"></div>
+            <div className="relative group overflow-hidden rounded-2xl">
+              <div className="absolute -inset-2 bg-gradient-to-r from-primary via-accent to-secondary rounded-2xl blur-2xl opacity-60 group-hover:opacity-100 transition-all duration-700"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <img 
                 src={profileImg} 
-                alt="Delphan Tsabeng" 
-                className="relative w-full rounded-2xl shadow-2xl border-2 border-primary/20 object-cover"
+                alt="Delphan Tsabeng - Développeur Fullstack" 
+                className="relative w-full h-auto rounded-2xl object-cover border-4 border-primary/30 shadow-2xl transform group-hover:scale-[1.02] transition-all duration-500 ring-2 ring-primary/20"
               />
             </div>
           </div>

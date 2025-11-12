@@ -4,6 +4,7 @@ import { ExternalLink, Github } from "lucide-react";
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
+import project4 from "@/assets/project-4.jpg";
 
 const Projects = () => {
   const projects = [
@@ -31,6 +32,14 @@ const Projects = () => {
       link: "#",
       github: "https://github.com/Tsabeng/Projet-Groupe5-Testing-",
     },
+    {
+      title: "Application de vitrine de gestion d'une association (2-0)",
+      description: "Application web de gestion complète pour une association, permettant la gestion des membres, des événements et des activités",
+      image: project4,
+      tags: ["HTML", "CSS", "JavaScript"],
+      link: "#",
+      github: "https://github.com/Tsabeng/Projet-JDDN",
+    },
   ];
 
   return (
@@ -45,7 +54,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <Card 
               key={index}

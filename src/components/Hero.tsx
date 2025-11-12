@@ -22,11 +22,12 @@ const Hero = () => {
       <div className="container mx-auto px-4 z-10">
         <div className="flex flex-col md:flex-row items-center justify-center gap-12 animate-fade-up">
           <div className="relative group">
-            <div className="absolute -inset-1 bg-gradient-to-r from-primary via-accent to-primary rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-glow"></div>
+            <div className="absolute -inset-2 bg-gradient-to-r from-primary via-accent to-secondary rounded-full blur-xl opacity-75 group-hover:opacity-100 transition-all duration-500 animate-glow"></div>
+            <div className="absolute -inset-1 bg-gradient-to-br from-primary/50 via-accent/50 to-secondary/50 rounded-full blur-md opacity-60 group-hover:opacity-90 animate-pulse"></div>
             <img 
               src={profileImg} 
-              alt="Delphan Tsabeng" 
-              className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-primary/20 shadow-2xl"
+              alt="Delphan Tsabeng - Développeur Fullstack" 
+              className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-primary/30 shadow-2xl transform group-hover:scale-105 transition-transform duration-500 ring-4 ring-primary/10 group-hover:ring-primary/30"
             />
           </div>
           <div className="text-center md:text-left space-y-6 max-w-2xl">
